@@ -1,0 +1,87 @@
+/* Write your CSS here */
+.body {
+  box-sizing: border-box;
+}
+.bg-container {
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-img-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .image {
+    display: none;
+  }
+}
+.image {
+  width: 40%;
+}
+.card-container {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 7px;
+  border-style: none;
+  font-family: 'Roboto';
+  width: 70%;
+}
+
+.heading {
+  font-size: 30px;
+}
+.labelEl {
+  color: #bfb7c4;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.inputEl {
+  color: #000000;
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  outline: none;
+  margin-bottom: 30px;
+}
+.AddButt {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 4px;
+  background-color: #8b5cf6;
+  color: #ffffff;
+  font-size: 14px;
+  border-style: none;
+}
+.appointment-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+}
+.starred-butt {
+  padding: 5px;
+  border-radius: 13px;
+  background-color: transparent;
+  color: #9897f0;
+  border-color: #9897f0;
+  cursor: pointer;
+}
+.butt-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.appoint-head {
+  font-size: 18px;
+}
+.list-type {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+}
